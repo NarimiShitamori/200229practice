@@ -3,6 +3,30 @@ body {
     line-height: 1.5;
 }
 
+/* ------------
+menu
+------------ */
+.menu {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.menu li{
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+.menu li a{
+    text-align: center;
+    margin: 40px;
+    border-right:1px solid #000;
+}
+
+.menu li:first-child a{
+    border-right:none;
+}
+
 h2 {
     font-size:2rem;
 margin: 65px 0 20px 0;
